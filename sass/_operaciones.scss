@@ -1,0 +1,7 @@
+@mixin color( $color){
+    color: $color;
+}
+
+li,h2{
+    @include color(rgb(236, 236, 236))
+}
